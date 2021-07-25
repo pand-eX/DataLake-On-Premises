@@ -209,10 +209,15 @@ Here is information from the Cluster/master and the slaves.
 
 ![14](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/14.png)
 
-And in this one I follow the execution information of what is happening in the cluster with Yarn. Because you set up a Cluster to run processing jobs you store and then process then here you can monitor
 
-![15](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/15.png)
+See that the file is already in our Data Lake!!! We already have a file stored! You just finished building your Data Lake.
 
-See that the file is already in our Data Lake!!! We already have a file stored! You just finished building your Data Lake. 16
+![16](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/16.png)
 
 Running the Job and Checking The Execution
+
+![17](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/17.png)
+
+![18](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/18.png)
+
+end of project.
