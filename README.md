@@ -36,11 +36,17 @@ Data Lakes become data marshes if they are not managedcorrectly. Make sure that 
 ![1](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/1.png)
 
 ## Data Warehouse
+
 Data > Structured and Processed Data Before Load on Database 
+
 Processing > data schema generated at the time of writing. 
+
 High > storage for large volumes of data. 
+
 Agility > Little agile, fixed configuration. 
+
 Security > mature security strategies. 
+
 Users > Business Analyst, BI and Data Scientist.
 
 ## Data Lake
