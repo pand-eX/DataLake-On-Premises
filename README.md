@@ -132,7 +132,7 @@ Always remembering that Data Lake is not a product or a Data Lake tool is a conc
 
 You have two approaches to looking at DL architecture: Split by layers. Look at the services that make up a DL.
 
-##< Metadata Management, Traceability, Hierarchy and Lineage, >
+## <Metadata Management, Traceability, Hierarchy and Lineage>
 
 Data acquisition: Data can exist in multiple forms and require different extraction techniques. Data processing: The acquired data may require processing to generate useful information. We can store the raw data and create a replica with processed data. Data analysis: Data is analyzed under demana, real-time, or batch. Data storage: Data is stored before and/or after analysis. This is not a mandatory order is just to stop didactically showing what is done in a Data Lake architecture.
 
