@@ -51,7 +51,17 @@ Users > Business Analyst, BI and Data Scientist.
 
 ## Data Lake
 
-Structured > Structured, Semi-Structured and Unstructured Data. Raw data. Processing > data schema generated at the time of reading. Storage > designed to be low cost, regardless of data volume. Agility > Very agile. Can be configured and reconfigured as needed. Security > You still need to improve your data security and access model. Users > Scientist and Data Analyst.
+Structured > Structured, Semi-Structured and Unstructured Data. Raw data. 
+
+Processing > data schema generated at the time of reading. 
+
+Storage > designed to be low cost, regardless of data volume. 
+
+Agility > Very agile. Can be configured and reconfigured as needed. 
+
+Security > You still need to improve your data security and access model. 
+
+Users > Scientist and Data Analyst.
 
 ![2](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/2.png)
 
