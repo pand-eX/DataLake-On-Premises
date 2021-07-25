@@ -6,7 +6,6 @@ Implementing a Data Lake On-Premises
 Data-Lake-On-Premises
 Implementing a Data Lake On-Premises
 
-NPM
 
 About the project
 We will implement a Project of a Data Lake On-premises. Understanding your concept and difference from a Data Warehouse.
