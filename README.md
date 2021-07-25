@@ -1,11 +1,6 @@
 # DataLake-On-Premises
 Implementing a Data Lake On-Premises
 
-# Data-Lake-On-Premises
-
-Data-Lake-On-Premises
-Implementing a Data Lake On-Premises
-
 
 ## About the project
 
