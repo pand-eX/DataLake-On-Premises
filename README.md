@@ -1,223 +1,233 @@
 # DataLake-On-Premises
-Implementing a Data Lake On-Premises
+
+Implementação de um Data Lake On-Premises
 
 
 ## About the project
 
-We will implement a Project of a Data Lake On-premises. Understanding your concept and difference from a Data Warehouse.
+Vamos implementar um projeto de um Data Lake no local. Entendendo seu conceito e diferença de um Data Warehouse.
 
 ##Why?
 
-why Data Lake is a concept not a platform !!!
+por que Data Lake é um conceito, não uma plataforma !!!
 
--This project is part of my personal portfolio, so I'll be happy if you could provide me with any feedback on the project, code, structure or anything you can report that could make me a better data engineer!
+- Este projeto faz parte do meu portfólio pessoal, então ficarei feliz se você puder me dar algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que possa me fazer um melhor engenheiro de dados!
 
 Email-me: henricao_7@yahoo.com.br
 
-Connect with me at LinkedIn
+Connect with me at [LinkedIn](https://www.linkedin.com/in/henrique-castro-484269203//).
 
-## Roadmap For a Successful Data Lake
+## Roteiro para um lago de dados bem sucedido
 
-Companies today are exploding from data, including database dataexisting, application outputs, ecommerce streaming data, social media, apps and devices connected to the Internet of Things (IoT). We are all well versed in the Data Warehouse, designed to capture the core of the business of other business systems, such as ERP systems and CRM, inventory and sales transactions that allow analysts and users of gain insights and make important business decisions from the of this data. But new technologies, including mobile, social and IoT platforms, areboosting much higher volumes of data, higher expectations of users and a rapid globalization of economies. Organizations are realizing that traditional technologies do not meet new business needs. As a result, many organizations are turning to architectures such as Data Lakes, using Apache Hadoop and other technology of Big Data. However, despite the growing investment in Data Lakes and Big Data technology - $150.8 billion in 2017, a 12.4% increase on compared to 2016 - only 14% of organizations report implementing their project proof of concept (PoC) of Big Data, in production. One reason for this discrepancy is that many organizations do not see a return on your initial investment in big data technology and infrastructure. This is usually because these organizations fail to do the right thing, falling short when it comes to designing the data correctly. In (many) in other cases, there is no data-driven culture. Ultimately, these organizations create "swamps" of data (Data Swamps) that are really useful only in cases of exploratory ad-hoc use (something still unusual in many companies, although it is used in research and development). For organizations that move beyond a PoC, many are uniting the flexibility of a Data Lake with good practices of the governance and data control. That's the key to getting a significant ROI technology investments for Big Data.
+As empresas hoje estão explodindo a partir de dados, incluindo dados de banco de dados, saídas de aplicativos, dados de streaming de comércio eletrônico, mídias sociais, aplicativos e dispositivos conectados à Internet das Coisas (IoT). Somos todos bem versados no Data Warehouse, projetado para capturar o núcleo dos negócios de outros sistemas de negócios, como sistemas ERP e CRM, operações de inventário e vendas que permitem aos analistas e usuários obter insights e tomar decisões importantes de negócios a partir desses dados. Mas novas tecnologias, incluindo plataformas móveis, sociais e IoT, estão aumentando volumes de dados muito maiores, expectativas mais altas dos usuários e uma rápida globalização das economias. As organizações estão percebendo que as tecnologias tradicionais não atendem às necessidades de novos negócios. Como resultado, muitas organizações estão se voltando para arquiteturas como Data Lakes, usando Apache Hadoop e outras tecnologias de Big Data. No entanto, apesar do crescente investimento em data lakes e tecnologia de big data - US $ 150,8 bilhões em 2017, um aumento de 12,4% em relação a 2016 - apenas 14% das organizações relatam implementar seu projeto de prova de conceito (PoC) de Big Data, em produção. Uma das razões para essa discrepância é que muitas organizações não veem um retorno sobre seu investimento inicial em tecnologia e infraestrutura de big data. Isso ocorre geralmente porque essas organizações não conseguem fazer a coisa certa, ficando aquém quando se trata de projetar os dados corretamente. Em (muitos) em outros casos, não há cultura baseada em dados. Em última análise, essas organizações criam "pântanos" de dados (Data Swamps) que são realmente úteis apenas em casos de uso exploratório ad-hoc (algo ainda incomum em muitas empresas, embora seja usado em pesquisa e desenvolvimento). Para organizações que vão além de um PoC, muitos estão unindo a flexibilidade de um Data Lake com boas práticas de governança e controle de dados. Essa é a chave para obter um investimento significativo em tecnologia ROI para Big Data.
 
-If you (Data Engineer) ask your Analysts and Scientists of Given what data they want to use in the future they will probably say "Everything available." But we really need all the data we canor just of what is relevant to solve certain business problem? In general, we use Data Lake to store: • Raw transactional data • Semi-structured and unstructured data • Streaming data • Historical data that has not been migrated to production systems • Data that may be useful for analysis in the future
+Se você (Engenheiro de Dados) perguntar aos seus analistas e cientistas de dado quais dados eles querem usar no futuro, eles provavelmente dirão "Tudo disponível". Mas realmente precisamos de todos os dados que canor apenas do que é relevante para resolver determinado problema de negócios? Em geral, usamos o Data Lake para armazenar: 
+
+• Dados transacionais brutos 
+• Dados semiestruturados e não estruturados 
+• Dados de streaming 
+• Dados históricos que não foram migrados para sistemas de produção 
+• Dados que podem ser úteis para análise no futuro
 
 ![12](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/12.png)
 
-Data Lakes become data marshes if they are not managedcorrectly. Make sure that your Data Lake has the following Features:
+Os Lagos de Dados tornam-se pântanos de dados se não forem gerenciados de forma correctida. Certifique-se de que seu Data Lake tenha as seguintes características:
 
-• Architecture to meet the company's business goals 
+• Arquitetura para atender às metas de negócios da empresa 
 
-• Management to protect data 
+• Gerenciamento para proteger dados 
 
-• Integration to be fed with data from different sources
+• Integração a ser alimentada com dados de diferentes fontes
 
-• Accessibility for "self-service" and to offer Data Scientists the opportunity to apply Real-Time Analytics
+• Acessibilidade para "autoatendimento" e para oferecer aos Cientistas de Dados a oportunidade de aplicar análises em tempo real
 
-#The Scripts for installation and configuration of our Data Lake Follows in Annex!!!
+#O Scripts para instalação e configuração do nosso Data Lake segue em anexo!!!
 
 ![1](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/1.png)
 
 ## Data Warehouse
 
-Data > Structured and Processed Data Before Load on Database 
+Dados > dados estruturados e processados antes de carregar no banco de dados 
 
-Processing > data schema generated at the time of writing. 
+Processamento > esquema de dados gerado no momento da escrita. 
 
-High > storage for large volumes of data. 
+Armazenamento de alto > para grandes volumes de dados. 
 
-Agility > Little agile, fixed configuration. 
+Agilidade > Pouca configuração ágil e fixa. 
 
-Security > mature security strategies. 
+A segurança > estratégias de segurança maduras. 
 
-Users > Business Analyst, BI and Data Scientist.
+Os usuários > Analista de Negócios, BI e Cientista de Dados.
 
 ## Data Lake
 
-Structured > Structured, Semi-Structured and Unstructured Data. Raw data. 
+Dados estruturados > Estruturados, Semiestruturados e Não Estruturados. Dados brutos. 
 
-Processing > data schema generated at the time of reading. 
+Processamento > esquema de dados gerado no momento da leitura. 
 
-Storage > designed to be low cost, regardless of data volume. 
+O armazenamento > projetado para ser de baixo custo, independentemente do volume de dados. 
 
-Agility > Very agile. Can be configured and reconfigured as needed. 
+Agilidade > muito ágil. Pode ser configurado e reconfigurado conforme necessário. 
 
-Security > You still need to improve your data security and access model. 
+Segurança > Você ainda precisa melhorar sua segurança de dados e modelo de acesso. 
 
-Users > Scientist and Data Analyst.
+Os usuários > Cientista e Analista de Dados.
 
 ![2](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/2.png)
 
-## What is Corporate Data ?
+## O que é Dados Corporativos?
 
-Corporate Data means any and all data held by any of the companies, including, but not limited to, data related to your finances, taxes, employees, customers, suppliers, and products or services.
+Dados Corporativos significam todo e qualquer dado mantido por qualquer uma das empresas, incluindo, mas não se limitando, dados relacionados às suas finanças, impostos, funcionários, clientes, fornecedores e produtos ou serviços.
 
-## Building the right infrastructure is key
-Therefore, it should be:
+## Construir a infraestrutura certa é fundamental
+Portanto, deve ser:
 
-• Agile
+• Ágil
 
-• Hold on
+• Segure-se
 
-• Compatible
+• Compatível
 
-• Manageable
+• Gerenciável
 
-What is the Cost of Implementing a Data Lake On-Premise?
+Qual é o custo de implementar um Data Lake On-Premise?
 
 ![3](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/3.png)
 
-What is the cost of deploying a Data Lake in the Cloud?
+Qual é o custo da implantação de um Data Lake na Nuvem?
 
 ![4](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/4.png) 
 
 ![5](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/5.png)
 
-That's an overview but has other costs other issues like if you want to stop using Data Lake and just click a button is ready. No problem with burning HD or depreciation of equipment and etc... and even has a VPN to ensure greater security.
+Essa é uma visão geral, mas tem outros custos outros problemas, como se você quiser parar de usar o Data Lake e basta clicar em um botão está pronto. Não há problema com queima de HD ou depreciação de equipamentos e etc... e ainda tem uma VPN para garantir maior segurança.
 
 ![6](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/6.png)
-Data Lake is the focal point of a data management strategy. Basically is a central repository is where you will bring the data from the most variable sources store process, analyze and take action with this data they can be discarded can be stored in a second step of what you wanted to keep history, but basically and create the central point of data storage. Allowing what in English is SCV (Single Customer View) that is, a single point of view of the data for the end user and that end user can be with the most varied applications a BI application a machine learning application eventually a tool for creating visualization of reports and dashboards and etc... 6
 
+Data Lake é o ponto focal de uma estratégia de gerenciamento de dados. Basicamente é um repositório central é onde você vai trazer os dados do processo de armazenamento de fontes mais variáveis, analisar e agir com esses dados eles podem ser descartados podem ser armazenados em um segundo passo do que você queria manter a história, mas basicamente e criar o ponto central do armazenamento de dados. Permitindo o que em inglês é o SCV (Single Customer View) ou seja, um único ponto de vista dos dados para o usuário final e que o usuário final pode estar com os mais variados aplicativos de um aplicativo de BI um aplicativo de aprendizado de máquina eventualmente uma ferramenta para criar visualização de relatórios e dashboards e etc... 
 
-The volume of data has been increasing significantly over the decades it is clear that previous strategies of storage and data management are no longer enough no longer use Data Marts, Data Warehouse this is not enough because the data changed its characteristics it comes in another format another speed in another volume and we need new strategies is the entry of Data Lake. Data Lake is becoming the focal point of a data management strategy!!!
+O volume de dados vem aumentando significativamente ao longo das décadas, é claro que estratégias anteriores de armazenamento e gerenciamento de dados não são mais suficientes para não usar mais Data Marts, Data Warehouse isso não é suficiente porque os dados mudaram suas características vem em outro formato outra velocidade em outro volume e precisamos de novas estratégias é a entrada do Data Lake. Data Lake está se tornando o ponto focal de uma estratégia de gerenciamento de dados!!!
+
 ![7](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/7.png)
 
-One of the world's largest technology companies agrees that vision. Look at this diagram from Microsoft. Look, Azure Data Lake is at the heart of the Microsoft Cloud environment data strategy. You bring the data to Data Lake and there you distribute to other applications or other repositories and then turn that data into information that will be useful for decision making
+Uma das maiores empresas de tecnologia do mundo concorda com essa visão. Olhe para este diagrama da Microsoft. Olha, o Azure Data Lake está no centro da estratégia de dados do ambiente do Microsoft Cloud. Você traz os dados para o Data Lake e lá você distribui para outros aplicativos ou outros repositórios e, em seguida, transforma esses dados em informações que serão úteis para a tomada de decisões
+
 ![8](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/8.png)
 
-##Data Lake Concept
+##Data Lake Conceito
 
+O Term Data Lake pode ser definido com um vasto repositório de uma variedade de dados brutos em toda a empresa, que podem ser comprados, processados, analisados e entregues. Data Lake Não é um banco de dados DL é um armazenamento de dados!!! Um Data Lake adquire dados de múltiplas fontes em uma empresa em sua forma nativa e, portanto, tem formas internas modeladas nos mesmos dados para múltiplos propósitos. Os dados podem ser de qualquer tipo, desde dados estruturados ou semiestruturados até dados completamente não estruturados. Espera-se que um Data Lake resulte em significados e insights relevantes para os negócios a partir das informações extraídas dos dados, usando vários algoritmos de análise de máquina e aprendizado. Data Lake não é apenas para armazenamento que o DL é construído para processar e analisar esses dados, seja usando uma ferramenta de BI, por exemplo, ou usando uma ferramenta para modelos preditivos. Um Data Lake resulta implicitamente em um modelo de negócio para negócios, o que é bom para resolver problemas de negócios muito específicos. Um Data Lake pode representar uma entidade ao máximo com base em informações coletadas de vários sistemas que possuem esses dados. Com o Data Lake, conseguimos extrair informações de uma única entidade amostral: Quando você cria um Data Warehouse, você coleta dados de algumas fontes, então organiza esses dados e então você alimenta a DW eu tenho todas as informações sobre cada entidade lá na DW? Você pode imaginar a entidade cliente que eu tenho todos os dados que eu preciso sobre o cliente lá na minha DW? Tenho registro no meu sistema RP tenho os cliques que o usuário faz no meu site tenho os e-mails que meu usuário envia para minha empresa tenho as faturas de pagamento que esse cliente fez eu tenho as faturas e procedimento de entrega dos produtos para esse cliente tudo isso é informação da entidade cliente tudo isso está no Data Warehouse? Provavelmente não na grande maioria dos casos não é porque tem uma limitação física para você montar o DW. Quando você trabalha com o Data Lake eu posso preferir extrair tudo o que tenho de cada entidade e armazená-lo no meu Lago de Dados, Entidade cliente, produto, fornecedor e qualquer outra entidade que seja interessante para a minha análise eu extraio tudo o que tenho cada interação desse usuário com a minha empresa então eu armazená-lo no DL e depois realizar análise de dados e criar modelos preditivos. Ser capaz de prever o que o cliente pode comprar no próximo mês ou que tipo de produto o cliente gostaria de receber!!! Uma verdadeira mudança de jogo!!! É muito trabalho, mas o resultado final pode ser maior rentabilidade diferencial competitiva entre outras vantagens para a empresa. Data Lake não é a solução ideal para qualquer empresa! IMPORTANTE LEVAR ISSO EM CONSIDERAÇÃO!! Se a empresa não tem uma cultura Data Driven, ou seja, uma cultura baseada em dados e nem está planejando ter em um futuro próximo, então a empresa não será capaz de extrair da Data Lake o melhor que tem a oferecer. O Data Lake é o centro de uma estratégia de gerenciamento de dados, portanto, se a empresa não estiver preocupada em gerenciar seus próprios dados, o Data Lake será apenas mais um repositório. Só será útil como qualquer tecnologia se a empresa estiver preparada para usar uma tecnologia, por isso sempre leve isso em consideração!!!
 
-The Term Data Lake can be defined with a vast repository of a variety of raw data across the enterprise, which can be purchased, processed, analyzed, and delivered. Data Lake Is Not a DL Database is a data store!!! A Data Lake acquires data from multiple sources in a company in its native form and therefore has internal shapes modeled on the same data for multiple purposes. Data can be of any type, from structured or semi-structured data to completely unstructured data. A Data Lake is expected to result in business-relevant meanings and insights from the information extracted from the data, using various machine analysis and learning algorithms. Data Lake is not just for storage the DL is built to process and analyze this data either by using a BI tool for example or by using a tool for predictive models. A Data Lake implicitly results in a Business-to-business model, which is good for solving very specific business problems. A Data Lake can represent an entity to the fullest based on information collected from various systems that have this data. With Data Lake we were able to extract information from a single sample entity: When you create a Data Warehouse you collect data from some sources you then organize that data and then you feed into DW I have all the information about each entity there in DW? Can you imagine the client entity i have all the data I need about the client there in my DW? I have registration in my RP system I have the clicks that the user makes on my site I have the emails that my user sends to my company I have the invoices of payment that that customer made I have the invoices and procedure of delivery of the products to that client all this is information of the client entity all this is in the Data Warehouse? Probably not in the vast majority of cases is not because it has a physical limitation for you to mount the DW. When you work with Data Lake I can rather extract everything I have from each entity and store it in my Data Lake, Client Entity, Product, Supplier and any other entity that is interesting for my analysis I extract everything I have every interaction of this user with my company so I store it in the DL and then perform data analysis and create predictive models. Being able to predict what the customer can buy in the next month or what type of product the customer would like to receive!!! A real Game Change!!! This is a lot of work, but the end result may be greater competitive differential profitability among other advantages for the company. Data Lake is not the ideal solution for any company! IMPORTANT TO TAKE THIS INTO CONSIDERATION!! If the company does not have a Data Driven culture, i.e. a data-driven culture and is not even planning to have in the near future then the company will not be able to extract from Data Lake the best it has to offer. Data Lake is the center of a data management strategy so if the company is not concerned with managing its own data the Data Lake will be just another repository. It will only be useful like any technology if the company is prepared to use a technology, so always take that into consideration!!!
 
 ![9](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/9.png)
 
-## Benefits For the Company
+## Benefícios para a empresa
 
-Unique storage model that describes the representation of data significantly. Centralization of the collection and storage of all data generated by the company. Single point of control Allows a data-driven culture.
+Modelo de armazenamento único que descreve significativamente a representação dos dados. Centralização da coleta e armazenamento de todos os dados gerados pela empresa. Um único ponto de controle permite uma cultura baseada em dados.
 
-## Technical Advantages.
+## Vantagens Técnicas.
 
-Better data governance. Allows you to work with predictive analytics through Machine Learning and AI. Allows the construction of recommendation systems and other analytical applications. Tracking and consistency of information. Analysis of Historical data.
+Melhor governança de dados. Permite que você trabalhe com análises preditivas através de Machine Learning e IA. Permite a construção de sistemas de recomendação e outras aplicações analíticas. Rastreamento e consistência de informações. Análise de dados históricos.
 
-## Technical Disadvantages
+## Desvantagens Técnicas
 
-If not well managed, Data Lake results in a Data Swamp
+Se não for bem gerenciado, Data Lake resulta em um Pântano de Dados
 
-Requires strict security control since ALL data generated by the company will be in a single repository Large amount of storage Need for computer clusters for storage and distributed data processing.
+Requer um controle de segurança rigoroso, uma vez que todos os dados gerados pela empresa estarão em um único repositório Grande quantidade de armazenamento Necessidade de clusters de computador para armazenamento e processamento de dados distribuídos.
 
-## Architecture of The Data Lake
+## Arquitetura do Lago de Dados
 
-Always remembering that Data Lake is not a product or a Data Lake tool is a concept just as Data Warehouse is a concept you can implement a DW with Oracle database with SQL Server, Postgre with MySql you can implement a DW in several different ways as well as a Data Lake can be implemented in several different ways with different products and different technologies. 10
+Lembrando sempre que o Data Lake não é um produto ou uma ferramenta do Data Lake é um conceito assim como o Data Warehouse é um conceito que você pode implementar um DW com o banco de dados Oracle com SQL Server, Postgre com o MySql você pode implementar um DW de várias maneiras diferentes, bem como um Data Lake pode ser implementado de várias maneiras diferentes com diferentes produtos e tecnologias diferentes. 10
 
-You have two approaches to looking at DL architecture: Split by layers. Look at the services that make up a DL.
+Você tem duas abordagens para olhar para a arquitetura DL: Dividir por camadas. Olhe para os serviços que compõem um DL.
 
-## <Metadata Management, Traceability, Hierarchy and Lineage>
+## <Gestão de Metadados, Rastreabilidade, Hierarquia e Linhagem>
 
-Data acquisition: Data can exist in multiple forms and require different extraction techniques. Data processing: The acquired data may require processing to generate useful information. We can store the raw data and create a replica with processed data. Data analysis: Data is analyzed under demana, real-time, or batch. Data storage: Data is stored before and/or after analysis. This is not a mandatory order is just to stop didactically showing what is done in a Data Lake architecture.
+Aquisição de dados: Os dados podem existir de múltiplas formas e requerem diferentes técnicas de extração. Processamento de dados: Os dados adquiridos podem exigir processamento para gerar informações úteis. Podemos armazenar os dados brutos e criar uma réplica com dados processados. Análise de dados: Os dados são analisados em demana, em tempo real ou em lote. Armazenamento de dados: Os dados são armazenados antes e/ou após a análise. Esta não é uma ordem obrigatória é apenas parar didaticamente mostrando o que é feito em uma arquitetura do Lago de Dados.
 
-A Data Lake first has to acquire data from somewhere. Once the data has been acquired we have to process it "Remembering that you can store the data and only then process. Yes, you can. Who makes and implements the architecture is you" I'm putting here the ideal depending on the business problems to be solved. I'm going to process this data somehow it can come from streaming (real time) or it can come in batch format, i.e. batchdata depending on how the acquisition step went. Next we have data analysis where we will extract insights from that data that was last stored I have Storage and does not need to be last you can acquire the data process it and store and then analyze you can put the storage at any step. -Many companies choose not to directly store the data because the volume is too large depending on the data is coming in real time if I lose the data in real time depending on the type of analysis I'm trying to do the data no longer serves anything. -Imagine that you are doing a real-time twitter sentiment analysis during a debate for Presidency of the Republic you want to know how are the moods during the debate does not interest me after and not before I want during the Debate why at each interval of the debate the candidates talk to their aides they can according to the return of the public change their behavior during the Debate. So in this case it makes no sense to say that storage will be before depends on the architecture being implemented if the company wants to work with real-time data analysis it acquired processes, that is, transforms that data from some structure applies Machine Learning and then delivers the result
+Um Lago Data primeiro tem que adquirir dados de algum lugar. Uma vez adquiridos os dados, temos que processá-los "Lembrando que você pode armazenar os dados e só então processar. Sim, você pode. Quem faz e implementa a arquitetura é você" Estou colocando aqui o ideal dependendo dos problemas de negócios a serem resolvidos. Eu vou processar esses dados de alguma forma ele pode vir do streaming (em tempo real) ou pode vir em formato de lote, ou seja, dados em lote dependendo de como foi a etapa de aquisição. Em seguida temos a análise de dados onde vamos extrair insights daquele dado que foi armazenado pela última vez eu tenho armazenamento e não precisa ser o último você pode adquirir o processo de dados e armazená-lo e, em seguida, analisar você pode colocar o armazenamento em qualquer etapa. -Muitas empresas optam por não armazenar diretamente os dados porque o volume é muito grande dependendo dos dados que estão chegando em tempo real se eu perder os dados em tempo real dependendo do tipo de análise que estou tentando fazer os dados não servem mais nada. -Imagine que você está fazendo uma análise de sentimento em tempo real no Twitter durante um debate para a Presidência da República que você quer saber como os humores durante o debate não me interessam depois e não antes que eu queira durante o Debate porque em cada intervalo do debate os candidatos conversam com seus assessores eles podem de acordo com o retorno do público mudar seu comportamento durante o Debate. Então, neste caso, não faz sentido dizer que o armazenamento será antes depende da arquitetura que está sendo implementada se a empresa quiser trabalhar com análise de dados em tempo real que adquiriu processos, ou seja, transforma esses dados de alguma estrutura aplica Machine Learning e, em seguida, entrega o resultado
 
-## Data Acquisition
+## Aquisição de Dados
 
-The first point is for the company to define what data will be stored in Data Lake. It's no use saying that you want all the data that's not how managers work a lot and companies they're going to try to say that. What data would you like to have for analysis to solve your business problems? You already know that everything starts in the definition of the problem to be solved
+O primeiro ponto é que a empresa defina quais dados serão armazenados no Data Lake. Não adianta dizer que você quer todos os dados que não é como os gerentes trabalham muito e as empresas que eles vão tentar dizer isso. Quais dados você gostaria de ter para análise para resolver seus problemas de negócios? Você já sabe que tudo começa na definição do problema a ser resolvido.
 
-## Data Processing and Management
+## Processamento e Gestão de Dados
 
-The definition of what processing and how it will be done is not a technical decision and purely a definition of the business area. Are you building a recommendation system? Are you building a Machine Learning application? Each of these applications will require a different type of processing what many companies normally do is stores the data in its raw state and already applies some ETL during the acquisition faze so you will acquire the data already stores in raw state and in the next step processes and already delivers to an analysis tool because then you speed up the data processing time and consequently deliver your analytical application. In this step and where we basically use the ETL T remembering that ETL will work the same as in the Data Warehouse. Same thing allowing us to extract data from different sources and different formats transform the data as needed and already put in your Data Lake prepares them for analysis. Many people consider that the advantage of Data Lake is that you have given them in raw format. Yes, no doubt it's a big plus, but raw data they're not very useful for analysis I have to process this data somehow if the company is already able to do this during optimal ETL if it doesn't somehow already store in Data Lake and then some tool or a data scientist will look at that data and give some structure to them , process and then prepare for the analysis process in general. THERE IS NO UNSTRUCTURED DATA ANALYSIS you will always give a structure to the data before we analyze. Even when you collect unstructured data before applying to an analytical tool I first give a structure in Data Lake I can writes in the raw state but I have to process at some point or during the acquisition phase or immediately after or later when doing the analysis!!!
+A definição de qual processamento e como será feito não é uma decisão técnica e puramente uma definição da área de negócio. Você está construindo um sistema de recomendação? Você está construindo um aplicativo de Machine Learning? Cada uma dessas aplicações exigirá um tipo diferente de processamento o que muitas empresas normalmente fazem é armazenando os dados em seu estado bruto e já aplica algum ETL durante a aquisição da Faze para que você adquira os dados já armazena em estado bruto e nos processos de próxima etapa e já entrega para uma ferramenta de análise, pois então você acelera o tempo de processamento de dados e consequentemente entregará sua aplicação analítica. Nesta etapa e onde basicamente usamos o ETL T lembrando que o ETL funcionará da mesma forma que no Data Warehouse. A mesma coisa que nos permite extrair dados de diferentes fontes e formatos diferentes transformar os dados conforme necessário e já colocar em seu Data Lake prepara-os para análise. Muitas pessoas consideram que a vantagem do Data Lake é que você os deu em formato bruto. Sim, sem dúvida é uma grande vantagem, mas dados brutos não são muito úteis para análise eu tenho que processar esses dados de alguma forma se a empresa já é capaz de fazer isso durante o ETL ideal se ele não armazenar de alguma forma em Data Lake e, em seguida, alguma ferramenta ou um cientista de dados vai olhar para esses dados e dar alguma estrutura para eles,  processo e, em seguida, preparar para o processo de análise em geral. Não há análise de dados não estruturadas, você sempre dará uma estrutura aos dados antes de analisarmos. Mesmo quando você coleta dados não estruturados antes de aplicar a uma ferramenta analítica eu primeiro dou uma estrutura em Data Lake eu posso escrever em estado bruto, mas eu tenho que processar em algum momento ou durante a fase de aquisição ou imediatamente após ou mais tarde ao fazer a análise!!!
 
-## Data analysis
+## Análise de dados
 
-This is the most important part of the entire process you have created a Data Lake exactly to analyze the data and help the company in decision making
+Esta é a parte mais importante de todo o processo que você criou um Data Lake exatamente para analisar os dados e ajudar a empresa na tomada de decisões
 
-## Data Storage
+## Armazenamento de dados
 
-Data Lake has a much larger goal than storing data it can just be part of a pipeline where I acquire, process, analyze, store the result and continue in this cycle so that the company continues to receive the insights from different sources.
+O Data Lake tem um objetivo muito maior do que armazenar dados, pode ser apenas parte de um pipeline onde eu adquiro, processo, analiso, armazeno o resultado e continuo nesse ciclo para que a empresa continue recebendo os insights de diferentes fontes.
 
-An existing question is can I collect all the data from a company? Is this really important for analysis? That's the question to ask. Do I need the logs from the servers to generate a recommendation system for the products of the company's website? If the answer is yes, then I need the data! If the answer is no I don't need to collect that data. Do I need data from social networks to eventually create a sales recommendation system? If the answer is yes I collect otherwise not and go ahead!!! -If you don't have a well-defined strategy to analyze this data you'll store because the data volume is too large and you're going to store it, storing there comes a time when the company is going to have to discard the data to free up some disk space or the data is so old that it doesn't have much use of the application I'm doing
-Metadata and Security Management
-Where are we going to identify the data that will eventually be stored in Data Lake or analyzed or processed what is this metadata? Date of creation of that data point, date on which that data was stored or entered in your Data Lake, date it was processed, date it was analyzed, the data source that is very important in DW we also include this type of metadata you can put a Column for example there in DW or you can put this in information to the part , i.e. where did this data come from? What was the exact source from which we extracted that content and then did the processing. This information that describes the data is what we call metadata if not, I'm just throwing things inside data lake and completely loses the purpose you need to have an efficient management of how the data is identified that's metadata management!!!
+Uma pergunta existente é: posso coletar todos os dados de uma empresa? Isso é realmente importante para análise? Essa é a pergunta a se fazer. Preciso dos registros dos servidores para gerar um sistema de recomendação para os produtos do site da empresa? Se a resposta for sim, então eu preciso dos dados! Se a resposta for não, não preciso coletar esses dados. Preciso de dados das redes sociais para criar um sistema de recomendação de vendas? Se a resposta for sim, eu coleciono de outra forma não e vá em frente!!! -Se você não tem uma estratégia bem definida para analisar esses dados você vai armazenar porque o volume de dados é muito grande e você vai armazená-lo, armazenar lá chega um momento em que a empresa vai ter que descartar os dados para liberar algum espaço de disco ou os dados são tão antigos que não tem muito uso do aplicativo que eu estou fazendo
+Metadados e Gerenciamento de Segurança
+Onde vamos identificar os dados que eventualmente serão armazenados no Lago de Dados ou analisados ou processados o que é esse metadados? Data de criação desse ponto de dados, data em que esses dados foram armazenados ou inseridos em seu Data Lake, data em que foram processados, data em que foi analisado, a fonte de dados que é muito importante no DW também incluímos esse tipo de metadados que você pode colocar uma Coluna por exemplo lá na DW ou você pode colocar isso em informações para a parte,  ou seja, de onde esses dados vieram? Qual foi a fonte exata da qual extraímos esse conteúdo e depois fizemos o processamento. Essas informações que descrevem os dados são o que chamamos de metadados se não, estou apenas jogando coisas dentro do lago de dados e perde completamente o propósito de você ter uma gestão eficiente de como os dados são identificados que é o gerenciamento de metadados!!!
 
--Traceability: Once you have created some metadata management process now I can track this data within my Data Lake. See the Data Lake may have terabytes, tetabytes in size I need to be able to track the data point as it moves into the Data Lake when it was entered as raw data, when it was processed, when it was parsed, when eventually it was discarded I can write this information and keep it as some kind of metadata history among several other options. There is now virtually a science around metadata management (Metadata Management) that is exactly you control all this is to ensure information about your data. -We also have Hierarchy and lineage that we help define the life cycle of the data within our Data Lake as well as in the Data Warehouse the reasoning is not much different. -Finally, the issue of Security -Although the blue line is not part of the Data Lake architecture it supports the DL architecture.
+-Rastreabilidade: Uma vez que você tenha criado algum processo de gerenciamento de metadados agora eu posso rastrear esses dados dentro do meu Data Lake. Veja o Data Lake pode ter terabytes, tetabytes em tamanho eu preciso ser capaz de rastrear o ponto de dados como ele se move para o Lago de Dados quando foi inserido como dados brutos, quando foi processado, quando foi analisado, quando eventualmente foi descartado eu posso escrever essas informações e mantê-la como algum tipo de história de metadados entre várias outras opções. Agora existe praticamente uma ciência em torno do gerenciamento de metadados (Metadata Management) que é exatamente você controlar tudo isso é para garantir informações sobre seus dados. -Também temos hierarquia e linhagem que ajudamos a definir o ciclo de vida dos dados dentro do nosso Data Lake, bem como no Data Warehouse o raciocínio não é muito diferente. -Finalmente, a questão da Segurança - Embora a linha azul não faça parte da arquitetura do Data Lake, ela suporta a arquitetura DL.
 
-## Data Quality and Lifecycle
+## Qualidade de dados e ciclo de vida
 
 
-If garbage comes in, there's going to be garbage. Quality is something to be considered throughout the process. How can I establish a criterion a quality standard this is also not easy! Normally during the acquisition and processing phase we can implement some practices with the aim of trying to increase the quality of the data or at least check the quality of the data that is entering the Data Lake we can for example create some kind of filter, establish some rule in the ETL, we can already apply some procedure of cleaning and transformation in the sample data : Imagine that you are collecting data from social networks and this data contains a lot of emoticons(Emoji) that is relevant to your analysis process? Most of the time not so I can already discard these characters before i even enter the data in Data Lake. 11
+Se o lixo entrar, haverá lixo. Qualidade é algo a ser considerado durante todo o processo. Como posso estabelecer um critério de um padrão de qualidade que também não é fácil! Normalmente durante a fase de aquisição e processamento podemos implementar algumas práticas com o objetivo de tentar aumentar a qualidade dos dados ou pelo menos verificar a qualidade dos dados que estão entrando no Lago de Dados podemos, por exemplo, criar algum tipo de filtro, estabelecer alguma regra no ETL, já podemos aplicar algum procedimento de limpeza e transformação nos dados da amostra:  Imagine que você está coletando dados de redes sociais e esses dados contêm um monte de emoticons (Emoji) que é relevante para o seu processo de análise? Na maioria das vezes não para que eu já possa descartar esses caracteres antes mesmo de inserir os dados no Lago de Dados. 11
 
--Logical Data lake > only point to access the data in every company -Agile> Quickly interactively deliver something -Data Architecture> basically and you model the business concepts -Logical data warehouse > governance of the data for the specific purpose for this I can use a DW -Enterprise Access Point> With a single data control and governance point -Data Virtualization > I need to somehow ensure the systems stable and independent Data Lake is a piece of a larger architecture and the life cycle of the data will depend on the company's objectives the company will create an application with a durability of one year? A year and a half? two? Remember the Lifecycle not and only data lake and all its data architecture!!!
+-Dados lógicos > apenas apontar para acessar os dados em cada empresa -Ágil> Rapidamente entregar interativamente algo -Arquitetura de dados> basicamente e você modela os conceitos de negócios - O data warehouse lógico > a governança dos dados para o propósito específico para isso eu posso usar um DW -Enterprise Access Point> Com um único ponto de controle de dados e ponto de governança -Data Virtualização > eu preciso de alguma forma garantir os sistemas estáveis e o Data Lake independente arquitetura e o ciclo de vida dos dados dependerão dos objetivos da empresa a empresa criará um aplicativo com durabilidade de um ano? Um ano e meio? Dois? Lembre-se do ciclo de vida não e apenas do lago de dados e de toda a sua arquitetura de dados!!!
+
 
 ![13](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/13.png)
 
-## The Success Roadmap for a Data Lake should include:
+## O roteiro de sucesso para um Data Lake deve incluir:
 
-Extensive analytical capabilities 
+Extensas capacidades analíticas 
 
-• Varied sources of data 
+• Fontes variadas de dados 
 
-• Access from different analytical tools 
+• Acesso a diferentes ferramentas analíticas 
 
-• Intensive computing for the execution of Machine algorithms Learning Interoperability 
+• Computação intensiva para a execução de algoritmos de máquina aprendendo interoperabilidade 
 
-• Integration with different heterogeneous systems 
+• Integração com diferentes sistemas heterogêneos 
 
-• Event and message processing Business Continuity 
+• Continuidade de negócios de processamento de eventos e mensagens 
 
-• High availability and fault tolerance 
+• Alta disponibilidade e tolerância a falhas 
 
-• Disaster Recovery (Backup and Restore) 
+• Recuperação de desastres (backup e restauração) 
 
-• Data Recovery (recovery against data failures and corruption Reduced Cost 
+• Recuperação de dados (recuperação contra falhas de dados e corrupção De Custo Reduzido 
 
-•Use of commodity hardware (low cost) 
+• Uso de hardware de commodities (baixo custo) 
 
-• Low overhead administration 
+• Baixa administração aérea 
 
-• High performance 
+• Alto desempenho 
 
-• Resource sharing (virtualization) Multi-tenancy Capabilities 
+• Recursos multi-locação (virtualização) de compartilhamento de recursos 
 
-• Ability to manage various (computational) resources from a single point Being able to gather all these features in a Data Lake is very difficult, but this should be the Roadmap and the goal of any organization interested in getting the most out of Big Data Analytics. And you, as an Engineer is one of those responsible for this.
+• Capacidade de gerenciar vários recursos (computacionais) a partir de um único ponto Ser capaz de reunir todos esses recursos em um Data Lake é muito difícil, mas este deve ser o Roteiro e o objetivo de qualquer organização interessada em tirar o máximo do Big Data Analytics. E você, como engenheiro, é um dos responsáveis por isso.
 
-References: IDC. "Worldwide Semiannual Big Data & Analytics Spending Guide." Gartner. "Market Guide for Hadoop Distributions." Architecting Data Lakes (Free e-book) https://www.oreilly.com/data/free/architecting-data-lakes.csp
+Referências: IDC. "Guia de Gastos Semestrais de Big Data & Analytics em todo o mundo." Gartner. "Guia de Mercado para Distribuições Hadoop." Arquitetando Data Lakes (e-book gratuito) https://www.oreilly.com/data/free/architecting-data-lakes.csp
 
-How to Build a Successful Data Lake
+Como construir um Data Lake bem sucedido
 
 https://mapr.com/resources/videos/how-build-successful-datalake/assets/how_to_build_a_successful_data_lake_webinar_-_160517.pdf
 
-Here is information from the Cluster/master and the slaves.
+Aqui estão informações do Cluster/Mestre e dos escravos.
 
 ![14](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/14.png)
 
 
-See that the file is already in our Data Lake!!! We already have a file stored! You just finished building your Data Lake.
+ver que o arquivo já está em nosso Data Lake!!! Nós já temos um arquivo armazenado! Você acabou de construir seu Data Lake.
 
 ![16](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/16.png)
 
-Running the Job and Checking The Execution
+Executando o trabalho e verificando a execução
 
 ![17](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/17.png)
 
 ![18](https://github.com/pand-eX/DataLake-On-Premises/blob/main/assets/18.png)
 
-end of project.
+fim.
